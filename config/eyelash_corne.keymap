@@ -48,6 +48,20 @@
         tap-ms = <30>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Underscore {
+            bindings = <&kp MINUS>;
+            key-positions = <37 38>;
+        };
+
+        Colon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <38 39>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
