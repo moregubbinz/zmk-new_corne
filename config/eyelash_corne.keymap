@@ -52,7 +52,8 @@
         Undo: Undo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&macro_press>, <&kp &kp Z>, <&macro_release>;
+
             label = "UNDO";
         };
     };
@@ -146,10 +147,10 @@
 
         ArrowKeys {
             bindings = <
-&trans  &trans     &trans  &trans    &trans     &kp ESC                     &trans          &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans  &trans
-&trans  &kp LSHFT  &trans  &kp LALT  &kp LCTRL  &trans              &trans  &trans  &trans  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans     &trans  &trans    &trans     &kp LGUI  &trans            &trans          &trans     &trans    &trans    &trans     &trans  &trans
-                           &trans    &trans     &trans                                      &kp RET    &kp BSPC  &kp DEL
+&trans  &trans     &kp LC(Z)  &kp LC(Y)  &trans     &kp ESC                     &trans          &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans  &trans
+&trans  &kp LSHFT  &trans     &kp LALT   &kp LCTRL  &trans              &trans  &trans  &trans  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans     &kp LC(C)  &kp LC(V)  &kp LG(V)  &kp LGUI  &trans            &trans          &trans     &trans    &trans    &trans     &trans  &trans
+                              &trans     &trans     &trans                                      &kp RET    &kp BSPC  &kp DEL
             >;
         };
 
