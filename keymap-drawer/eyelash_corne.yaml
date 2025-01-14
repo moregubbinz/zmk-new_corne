@@ -394,8 +394,8 @@ layers:
   ArrowKeys:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Z
+  - Ctl+Y
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -422,9 +422,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+C
+  - Ctl+V
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - LGUI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
