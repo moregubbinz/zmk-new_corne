@@ -135,8 +135,6 @@
 &trans  &trans          &trans        &trans        &trans        &trans        &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                       &trans        &trans        &trans                                          &trans  &trans  &trans
             >;
-
-            sensor-bindings = <&scroll_encoder>;
         };
 
         raise_layer {
@@ -147,8 +145,6 @@
 &trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                                     &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
-
-            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
