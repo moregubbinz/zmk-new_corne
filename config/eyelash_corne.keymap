@@ -48,16 +48,6 @@
         tap-ms = <30>;
     };
 
-    macros {
-        Undo: Undo {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp &kp Z>, <&macro_release>;
-
-            label = "UNDO";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
