@@ -97,10 +97,10 @@
 
         ArrowKeys {
             bindings = <
-&trans  &trans     &trans     &kp LC(Z)  &kp LC(Y)  &kp ESC                       &trans          &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans  &trans
-&trans  &kp LSHFT  &trans     &kp LALT   &kp LCTRL  &kp C_MENU            &trans  &trans  &trans  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans     &kp LC(C)  &kp LC(V)  &kp LG(V)  &kp LGUI    &trans            &trans          &trans     &trans    &trans    &trans     &trans  &trans
-                              &trans     &trans     &trans                                        &kp RET    &kp BSPC  &kp DEL
+&trans  &trans     &trans     &kp LC(Z)  &kp LC(Y)  &kp ESC                               &trans          &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans  &trans
+&trans  &kp LSHFT  &trans     &kp LALT   &kp LCTRL  &kp K_CONTEXT_MENU            &trans  &trans  &trans  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans     &kp LC(C)  &kp LC(V)  &kp LG(V)  &kp LGUI            &trans            &trans          &trans     &trans    &trans    &trans     &trans  &trans
+                              &trans     &trans     &trans                                                &kp RET    &kp BSPC  &kp DEL
             >;
         };
 
