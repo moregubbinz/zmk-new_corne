@@ -29,7 +29,7 @@ layers:
   - {t: S, h: LEFT WIN}
   - {t: '''', h: '$$mdi:apple-keyboard-shift$$', s: '"'}
   - {t: '''', s: '"'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&bl BL_TOG'
   - Z
   - X
   - C
